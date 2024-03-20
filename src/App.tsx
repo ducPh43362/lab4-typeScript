@@ -10,7 +10,7 @@ import Notfound from './pages/Notfound'
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -21,8 +21,9 @@ function App() {
 
       </Routes>
       <Footer />
-    </>
+    </div>
   )
 }
 
 export default App
+

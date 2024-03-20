@@ -1,0 +1,32 @@
+header {
+  background-color: #00483d;
+
+  nav {
+    ul {
+      height: 80px;
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      padding-left: 16px;
+
+      li {
+        list-style-type: none;
+
+        .itemLink {
+          color: #fff;
+          text-decoration: none;
+          padding: 10px 20px;
+          
+          &:hover {
+            background-color: #063d38;
+            border-radius: 12px 12px 12px 12px;
+          }
+
+          &.active {
+            color: #FFC700;
+          }
+        }
+      }
+    }
+  }
+}
